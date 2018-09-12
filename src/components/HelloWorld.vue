@@ -1,6 +1,8 @@
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
+    <h1>BOOM</h1>
+    <h1>boom</h1>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -32,11 +34,11 @@
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: "HelloWorld",
   props: {
     msg: String
   }
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
